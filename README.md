@@ -5,5 +5,5 @@ Quickly create a new [GLSP](https://eclipse.dev/glsp) app.
 ## Usage
 
 ```bash
-npx create-glsp-app my-app
+npx danieldietrich/create-glsp-app my-app
 ```
