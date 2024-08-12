@@ -1,6 +1,6 @@
 {
   "name": "@danieldietrich/create-glsp-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quickly create a new GLSP app.",
   "bin": {
     "create-glsp-app": "./bin/run.sh"
@@ -8,7 +8,11 @@
   "scripts": {
     "start": "./bin/run.sh"
   },
-  "keywords": ["glsp", "app", "creator"],
+  "keywords": [
+    "glsp",
+    "app",
+    "creator"
+  ],
   "author": "Daniel Dietrich",
   "license": "MIT"
 }
