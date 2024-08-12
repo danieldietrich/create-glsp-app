@@ -75,7 +75,7 @@ else
     mkdir -p "$TARGET_DIR"
 fi
 
-cp -r "$TMP_DIR/$TEMPLATES_DIR/$selected_template"/* "$TARGET_DIR"
+cp -R "$TMP_DIR/$TEMPLATES_DIR/$selected_template/." "$TARGET_DIR/"
 
 echo "Done!"
 
