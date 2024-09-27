@@ -23,9 +23,9 @@ display_menu() {
     local current=$1
     for i in "${!subdirs[@]}"; do
         if [ "$i" -eq "$current" ]; then
-            echo -e "\033[7m$((i+1)). ${subdirs[$i]}\033[0m"
+            printf "\033[7m%2d. %s\033[0m\n" "$((i+1))" "${subdirs[$i]}"
         else
-            echo "$((i+1)). ${subdirs[$i]}"
+            printf "%2d. %s\n" "$((i+1))" "${subdirs[$i]}"
         fi
     done
 }
